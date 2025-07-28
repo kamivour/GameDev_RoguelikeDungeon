@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cah0orut0da5u" path="res://scripts/player.gd" id="1_3vyb7"]
 
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_qm0ti"]
-size = Vector2(20, 20)
+size = Vector2(16, 16)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_3vyb7"]
 
