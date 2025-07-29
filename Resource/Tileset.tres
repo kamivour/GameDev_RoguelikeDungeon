@@ -1,7 +1,8 @@
-[gd_resource type="TileSet" load_steps=5 format=3 uid="uid://blrobgq1wuoiq"]
+[gd_resource type="TileSet" load_steps=7 format=3 uid="uid://blrobgq1wuoiq"]
 
 [ext_resource type="Texture2D" uid="uid://vruv2baxw6vp" path="res://assets/character and tileset/demonstration.png" id="1_18esi"]
 [ext_resource type="Texture2D" uid="uid://5387axnpvkph" path="res://assets/character and tileset/Dungeon_Tileset.png" id="2_mxqpt"]
+[ext_resource type="PackedScene" uid="uid://dr7karbnj6oo2" path="res://scenes/Resource/spike.tscn" id="3_mxqpt"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5xbjy"]
 texture = ExtResource("1_18esi")
@@ -297,7 +298,11 @@ texture = ExtResource("2_mxqpt")
 8:9/0 = 0
 9:9/0 = 0
 
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_dtaee"]
+scenes/1/scene = ExtResource("3_mxqpt")
+
 [resource]
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_5xbjy")
 sources/1 = SubResource("TileSetAtlasSource_fcfvj")
+sources/2 = SubResource("TileSetScenesCollectionSource_dtaee")
